@@ -9,8 +9,8 @@ import {render} from "react-dom";
 const oldJs = require('./diff/javascript/old.rjs').default;
 const newJs = require('./diff/javascript/new.rjs').default;
 
-const oldJson = require('./diff/json/old.json');
-const newJson = require('./diff/json/new.json');
+const oldJson = require('./diff/json/bigJson/old.json');
+const newJson = require('./diff/json/bigJson/new.json');
 
 interface ExampleState {
   splitView?: boolean;
